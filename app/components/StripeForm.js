@@ -99,8 +99,8 @@ export const StripeForm = ({ totalPrice, placeOrder }) => {
                 {message}
             </div>
             <form id="payment-form" onSubmit={handleSubmit}>
-                <div>
-                    Pay {totalPrice}€
+                <div style={{ margin: "15px 0px", fontWeight: "bold" }}>
+                    Total Amount {totalPrice}€
                 </div>
                 <PaymentElement id="payment-element" />
                 <button style={{ marginTop: "10px" }} disabled={isLoading || !stripe || !elements} id="submit">

@@ -118,9 +118,11 @@ textarea {
 #submit {
   position: relative;
   display: inline-block;
-  float: right;
+  /* float: right; */
   cursor: pointer !important;
   font-size: 12px;
+  width: 100%;
+  margin-top: 23px !important;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -165,4 +167,22 @@ button:focus {
 button.ghost {
   background-color: transparent;
   border-color: #FFFFFF;
+}
+
+.form-check-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-check-input label {
+  margin-top: 4px;
+}
+
+.form-check-input input {
+  width: 15px;
+}
+
+.each-payments {
+  margin-bottom: 47px;
 }

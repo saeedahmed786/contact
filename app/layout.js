@@ -11,6 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <head>
+        <script
+          src="https://www.paypal.com/sdk/js?client-id=Af_tZDlybGeIRne-TrRMLkBya28evKhdt2O_MPlz8NUCTW8d6aI3_N85dkdH-GGhgcW0d1WrYbG8vBDP"
+          data-sdk-integration-source="react-paypal-js"></script>
+      </head> */}
       <body className={inter.className}>{children}</body>
     </html>
   )

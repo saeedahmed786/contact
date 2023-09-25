@@ -1,7 +1,7 @@
 "use client";
 import dynamic from 'next/dynamic';
 import React, { useState } from 'react'
-const DynamicComponent = dynamic(() => import('./Stripe'));
+const DynamicComponent = dynamic(() => import('./Payment'));
 
 const Contact = () => {
     const [showStripe, setShowStripe] = useState(false);
